@@ -26,7 +26,7 @@
 		$_SESSION['nome'] = $dados['nome'];
 		$_SESSION['logado'] = TRUE;
 
-        header('LOCATION: ../cadastro-produtos.php');
+        header('LOCATION: ../sistema.php');
     } else {
         echo '<script> 
                 alert("Usuário ou senha inválidos. Verifique!");
